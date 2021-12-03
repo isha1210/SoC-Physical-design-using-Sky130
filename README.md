@@ -85,13 +85,13 @@ Creating Rings
 
 ![FPcomp1](https://user-images.githubusercontent.com/92804006/144569416-d7eb5dfc-803c-4802-8aa4-53e870a51ead.jpg)
 
-![floorplansuccess](https://user-images.githubusercontent.com/92804006/144569134-f9033bda-e7d9-4709-b39c-007b9172c494.jpg)
-
-Floorplan using Magic tool -
-
 Command -
 
 ![magiclayout_command](https://user-images.githubusercontent.com/92804006/144570218-27e0d39c-4fb0-4bc4-b548-f0cf45d9698a.jpg)
+
+![floorplansuccess](https://user-images.githubusercontent.com/92804006/144569134-f9033bda-e7d9-4709-b39c-007b9172c494.jpg)
+
+Floorplan using Magic tool -
 
 Output -
 
