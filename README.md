@@ -49,3 +49,7 @@ Here's a picture of the OpenLANE flow diagram :
 
 ![1](https://user-images.githubusercontent.com/92804006/144555026-cb198c0d-db4b-4b9d-8c57-f472cd7cbfb0.jpg)
 
+Process Design Kit(PDKs) contains device models, digital standard cell libraries, process design rules, input-output libraries and other important collection of files used for fabrication.
+
+
+
