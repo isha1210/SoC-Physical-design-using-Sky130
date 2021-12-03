@@ -112,3 +112,15 @@ Command -
 Output -
 
 ![Layout_op](https://user-images.githubusercontent.com/92804006/144571231-13d90ffa-d86e-4bb6-b620-1975a2659845.jpg)
+
+Next step is to characterise the inverter using ngspice. The command " extraxt all,ext2spice chresh 0 rthresh 0 followed by ext2spice" create spice netlist.
+
+![Extract_done](https://user-images.githubusercontent.com/92804006/144572035-2f5e8cc4-c061-4e01-8a9b-31d2cd410b8f.jpg)
+
+The spice netlist can be observed with the nodes available in the layout:
+
+![spice-file](https://user-images.githubusercontent.com/92804006/144572264-542cff89-b9f6-4c86-9759-c21372378152.jpg)
+
+The spice netlist is not completed without the VDD,VSS and input pulse. Below update spice netlist consist of all the necessary input and power:
+
+![spice_newcode](https://user-images.githubusercontent.com/92804006/144572276-fe4081eb-b1c0-4bf7-b8c7-968fff3735d2.jpg)
