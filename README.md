@@ -53,6 +53,8 @@ Process Design Kit(PDKs) contains device models, digital standard cell libraries
 
 The command to start OpenLANE : 
 
+![open](https://user-images.githubusercontent.com/92804006/144558185-a0aabead-0592-4750-812f-cb64abb0f640.jpg)
+
 
 
 
