@@ -65,4 +65,7 @@ run_synthesis is the command for start synthesis. Synthesis takes a few minutes(
 
 ![flopratio](https://user-images.githubusercontent.com/92804006/144560332-fe5ab49c-917d-43d8-8ad7-d1d9e5505c33.jpg)
 
+Here, flop ratio. the flop ratio = Total number of flip-flops / Total number of Cells
+
+
 
