@@ -59,8 +59,10 @@ The command to start OpenLANE :
 
 ![designprep](https://user-images.githubusercontent.com/92804006/144558861-117e2eca-89b6-45de-b440-487d7767734e.jpg)
 
-run_synthesis is the command for start synthesis. Synthesis takes a few minutes(according to the depth of design), below is the result summary:
+run_synthesis is the command for start synthesis. Synthesis takes a few minutes(according to the depth of design), below is the result summary with the flop ratio:
 
 ![succsyn](https://user-images.githubusercontent.com/92804006/144559474-4a9d53ea-280e-498d-b2e7-f97d5868da61.jpg)
+
+![flopratio](https://user-images.githubusercontent.com/92804006/144560332-fe5ab49c-917d-43d8-8ad7-d1d9e5505c33.jpg)
 
 
