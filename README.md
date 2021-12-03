@@ -97,6 +97,16 @@ Output -
 
 ![magiclayout](https://user-images.githubusercontent.com/92804006/144570240-47017121-da95-4b6e-b317-e6f3f46ae6e3.jpg)
 
+Placement -
+
+![Placement_layout_str](https://user-images.githubusercontent.com/92804006/144581268-6b819c9c-d698-4466-8980-30a57b8e2b98.jpg)
+
+After changing values - 
+
+run_placement is the command for start placement.Below is a snapshot after completing placement using magic: 
+
+![Placement](https://user-images.githubusercontent.com/92804006/144580447-22db3242-1c49-4aa0-aab1-46dfce0eaa38.jpg)
+
 STANDARD CELLS
 
 There are multiple standard cells available in github or skywater. In this workshop let's cloning from github as below:
