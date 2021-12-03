@@ -71,4 +71,14 @@ the total number of flip-flops = 1398 and total number of Cells = 14876 and the 
 
 All the runs available in working_dir/openLANE/design/picorv32a/runs directory names as date.
 
+Floorplan
 
+Floorplan determines the chip quality. It includes :
+
+Define the size of your chip/block and Aspect ratio
+Defining the core area and IO core spacing
+IO Placement/Pin placement
+Allocates power routing resources
+Place the hard macros and reserve space for standard cells.
+Defining Placement and Routing blockages blockages
+Creating Rings
