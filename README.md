@@ -46,4 +46,5 @@ Place and Route (PnR) is the core of any ASIC implementation and Openlane flow i
 OpenLANE is an automated RTL to GDSII flow based on several tools including OpenROAD, Yosys, Magic, Netgen, Fault, OpenPhySyn, SPEF-Extractor and custom methodology scripts for designing and optimization.
 
 Here's a picture of the OpenLANE flow diagram :
+![1](https://user-images.githubusercontent.com/92804006/144555026-cb198c0d-db4b-4b9d-8c57-f472cd7cbfb0.jpg)
 
