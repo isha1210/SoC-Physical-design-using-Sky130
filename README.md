@@ -96,3 +96,9 @@ Floorplan using Magic tool -
 Output -
 
 ![magiclayout](https://user-images.githubusercontent.com/92804006/144570240-47017121-da95-4b6e-b317-e6f3f46ae6e3.jpg)
+
+STANDARD CELLS
+
+There are multiple standard cells available in github or skywater. In this workshop let's cloning from github as below:
+
+![Gitclone1](https://user-images.githubusercontent.com/92804006/144571044-e9a7ea7c-ff5f-4554-b1fa-015babe52d0e.jpg)
