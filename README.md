@@ -87,3 +87,13 @@ Creating Rings
 
 ![floorplansuccess](https://user-images.githubusercontent.com/92804006/144569134-f9033bda-e7d9-4709-b39c-007b9172c494.jpg)
 
+Floorplan using Magic tool -
+
+Command -
+
+![Layout_command](https://user-images.githubusercontent.com/92804006/144569766-a427601d-f430-4622-b177-05ff9cea8b25.jpg)
+
+Output- 
+
+![Layout_op](https://user-images.githubusercontent.com/92804006/144569890-58abc422-3ff0-4aab-b9d4-9c3bb976cc00.jpg)
+
