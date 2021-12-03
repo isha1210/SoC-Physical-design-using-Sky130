@@ -67,7 +67,7 @@ run_synthesis is the command for start synthesis. Synthesis takes a few minutes(
 
 Here, flop ratio. the flop ratio = Total number of flip-flops / Total number of Cells
 
-the total number of flip-flops = 1634 and total number of Cells = 17323 and the ratio = 0.094
+the total number of flip-flops = 1398 and total number of Cells = 14876 and the ratio = 0.094
 
 All the runs available in working_dir/openLANE/design/picorv32a/runs directory names as date.
 
