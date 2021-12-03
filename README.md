@@ -102,3 +102,13 @@ STANDARD CELLS
 There are multiple standard cells available in github or skywater. In this workshop let's cloning from github as below:
 
 ![Gitclone1](https://user-images.githubusercontent.com/92804006/144571044-e9a7ea7c-ff5f-4554-b1fa-015babe52d0e.jpg)
+
+The standard cell inverter(CMOS) layout looks as below: 
+
+Command -
+
+![Layout_command](https://user-images.githubusercontent.com/92804006/144571218-f1378074-e038-432f-935e-9218e6912f66.jpg)
+
+Output -
+
+![Layout_op](https://user-images.githubusercontent.com/92804006/144571231-13d90ffa-d86e-4bb6-b620-1975a2659845.jpg)
