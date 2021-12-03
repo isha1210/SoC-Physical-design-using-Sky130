@@ -82,3 +82,6 @@ Allocates power routing resources
 Place the hard macros and reserve space for standard cells.
 Defining Placement and Routing blockages blockages
 Creating Rings
+
+![floorplansuccess](https://user-images.githubusercontent.com/92804006/144569134-f9033bda-e7d9-4709-b39c-007b9172c494.jpg)
+
