@@ -121,6 +121,6 @@ The spice netlist can be observed with the nodes available in the layout:
 
 ![spice-file](https://user-images.githubusercontent.com/92804006/144572264-542cff89-b9f6-4c86-9759-c21372378152.jpg)
 
-The spice netlist is not completed without the VDD,VSS and input pulse. Below update spice netlist consist of all the necessary input and power:
+The spice netlist is incomplete without the VDD, VSS and input pulse. Below is the updated spice netlist consisting of all necessary inputs and power:
 
 ![spice_newcode](https://user-images.githubusercontent.com/92804006/144572276-fe4081eb-b1c0-4bf7-b8c7-968fff3735d2.jpg)
