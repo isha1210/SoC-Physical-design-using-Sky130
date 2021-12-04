@@ -146,3 +146,30 @@ Result after issuing the ngspice command ngspice sky130_inv.spice :
 The inverter waveform after changing C3 to 2fF :
 
 ![sim2](https://user-images.githubusercontent.com/92804006/144703349-ee2690f8-4fcc-4b82-8ba7-4947ba9be73a.jpg)
+
+Characterizing:
+
+Rise transition : time taken by the output to transit from 20% of the maximum value to 80% of the maximum value
+
+Fall transition : time taken by the output to transit from 80% of the maximum value to 20% of the maximum value
+
+Fall cell delay : difference between the time when output has fallen to 50% of the maximum value while input is rised to 50% of the maximum value
+
+Rise cell delay : difference between the time when output has rised to 50% of the maximum value while input is falled to 50% of the maximum value
+
+propogation delay = time(out_thr) - time(in_thr)
+
+Extraction of LEF file:
+
+In magic layout, activate the tracks to ensure that A and Y pins are placed on the intersection of tracks.
+
+In tkcon to activate grids
+
+![extlay](https://user-images.githubusercontent.com/92804006/144703616-49f94033-f5dc-4b4f-bd91-df423a9a6ef6.jpg)
+
+For synthesis, a library which has the cell defnition is necessary so copy this lef file into picoprv32a src directory
+
+Edit the config file to include the variables required for synthesis of std cell inverter.
+
+![4](https://user-images.githubusercontent.com/92804006/144704264-a4e9dda2-6d87-4308-9c9b-fec90631501a.jpg)
+
