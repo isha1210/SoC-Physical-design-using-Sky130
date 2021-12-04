@@ -226,3 +226,29 @@ Slack violation for Setuptime time:
 ![image](https://user-images.githubusercontent.com/92804006/144705754-2f7f9761-66a6-4f51-8e8c-a7f6df615056.png)
 
 read_lef loacation of merged.lef read_def location of picorv32a_cts.def write_db After CTS slack is increased. To reduce slack violation edit the variables for clock buffers, replace the buffers.
+
+The last step in the openLANE is routing using run_routing :
+
+![image](https://user-images.githubusercontent.com/92804006/144705792-ce27f67d-1f7b-4b3f-b6d0-f7bd633fb8cd.png)
+
+Summary of routing available in terminal as below:
+
+![image](https://user-images.githubusercontent.com/92804006/144705800-6db72808-33d5-4263-8b8d-3539a56e5da7.png)
+
+FULL DESIGN WITH INVERTER STD CELL
+
+We can observe our routing layout including inverter with magic as below:
+
+![image](https://user-images.githubusercontent.com/92804006/144705829-af968a59-b89a-4576-86ca-486035d7d3da.png)
+
+![image](https://user-images.githubusercontent.com/92804006/144705840-299374b2-c32d-4179-8130-588c3ae9193c.png)
+
+GDSII file can be obtained with run_magic command.
+
+Note: more snapshots available in snapshot directory in github.
+
+ACKNOWLEDGEMENTS
+
+Kunal Ghosh, Co-Founder (VSD Corp. Pvt. Ltd)
+
+Nickson P Jose, Teaching Assistant (VSD Corp. Pvt. Ltd)
