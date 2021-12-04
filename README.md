@@ -173,3 +173,8 @@ Edit the config file to include the variables required for synthesis of std cell
 
 ![4](https://user-images.githubusercontent.com/92804006/144704264-a4e9dda2-6d87-4308-9c9b-fec90631501a.jpg)
 
+In synthesis report observe the chip area, wns-maximum slack and tns-total negative slack
+
+As the slack is violated change the synthesis strategy, buffering, sizing to reduce the slack violations and run synthesis again.
+
+![image](https://user-images.githubusercontent.com/92804006/144704315-cbb7493e-e460-4d54-87d8-1b90abeea9e8.png)
