@@ -134,3 +134,11 @@ The spice netlist can be observed with the nodes available in the layout:
 The spice netlist is incomplete without the VDD, VSS and input pulse. Below is the updated spice netlist consisting of all necessary inputs and power:
 
 ![spice_newcode](https://user-images.githubusercontent.com/92804006/144572276-fe4081eb-b1c0-4bf7-b8c7-968fff3735d2.jpg)
+
+Result after issuing the ngspice command ngspice sky130_inv.spice :
+
+![ngsp_command](https://user-images.githubusercontent.com/92804006/144703199-8091a249-2477-4f96-be2d-fe42d0dcd590.jpg)
+
+![Initialtransientvalues](https://user-images.githubusercontent.com/92804006/144703274-dac9db60-30c4-4f4f-899f-97cdc007fa5e.jpg)
+
+![sim1](https://user-images.githubusercontent.com/92804006/144703209-fff988a6-c0cd-4e19-b173-e0dd0a01fd79.jpg)
