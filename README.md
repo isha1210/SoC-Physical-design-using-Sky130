@@ -178,3 +178,23 @@ In synthesis report observe the chip area, wns-maximum slack and tns-total negat
 As the slack is violated change the synthesis strategy, buffering, sizing to reduce the slack violations and run synthesis again.
 
 ![image](https://user-images.githubusercontent.com/92804006/144704315-cbb7493e-e460-4d54-87d8-1b90abeea9e8.png)
+
+After synthesis with reduced slack violations run placement
+
+![image](https://user-images.githubusercontent.com/92804006/144704371-65a45127-6f51-4d72-bf4c-211d050a2327.png)
+
+Clock Tree Sinthesis
+The goal of clock tree synthesis (CTS) is to minimize skew and insertion delay. After CTS hold slack should improve. Clock tree begins at .sdc defined clock source and ends at stop pins of flop. In clock tree optimization (CTO) clock can be shielded so that noise is not coupled to other signals. But shielding increases area by 12 to 15%. Since the clock signal is global in nature the same metal layer used for power routing is used for clock also. CTO is achieved by buffer sizing, gate sizing, buffer relocation, level adjustment and High Fanout Nets synthesis. We try to improve setup slack in pre-placement, in placement and post placement optimization before CTS stages while neglecting hold slack. In post placement optimization after CTS hold slack is improved. As a result of CTS lot of buffers are added.
+
+openlane tool - TritonCTS - Synthesizes the clock distribution network (the clock tree) -
+
+run_cts
+
+Invoke the openroad from openlane -
+
+openroad
+
+To do timing analysis create a db from lef and def files. db once created can be read multiple times.
+
+read_lef loacation of merged.lef read_def location of picorv32a_cts.def write_db After CTS slack is increased. To reduce slack violation edit the variables for clock buffers, replace the buffers.
+
