@@ -198,3 +198,19 @@ To do timing analysis create a db from lef and def files. db once created can be
 
 read_lef loacation of merged.lef read_def location of picorv32a_cts.def write_db After CTS slack is increased. To reduce slack violation edit the variables for clock buffers, replace the buffers.
 
+LEF FILE EXTRACTION FROM STD CELL LAYOUT
+
+Next is to get the grid in magic. The grid details available in pdk/TRACE.info file as below:
+
+Including grid in magic with grid: 
+
+![5](https://user-images.githubusercontent.com/92804006/144704723-ff5841d9-bd30-4849-8cb3-7821dc273993.jpg)
+
+Define port (using options -> texts) :
+
+![image](https://user-images.githubusercontent.com/92804006/144704751-b46eedb4-9873-4c2c-8fc3-f7b037d5f1be.png)
+
+Define port class and port use in magic:
+
+![image](https://user-images.githubusercontent.com/92804006/144704777-aacbe566-49a9-4d11-9068-9d8dcfee4a72.png)
+
