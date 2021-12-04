@@ -142,3 +142,7 @@ Result after issuing the ngspice command ngspice sky130_inv.spice :
 ![Initialtransientvalues](https://user-images.githubusercontent.com/92804006/144703274-dac9db60-30c4-4f4f-899f-97cdc007fa5e.jpg)
 
 ![sim1](https://user-images.githubusercontent.com/92804006/144703209-fff988a6-c0cd-4e19-b173-e0dd0a01fd79.jpg)
+
+The inverter waveform after changing C3 to 2fF :
+
+![sim2](https://user-images.githubusercontent.com/92804006/144703349-ee2690f8-4fcc-4b82-8ba7-4947ba9be73a.jpg)
