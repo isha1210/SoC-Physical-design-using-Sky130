@@ -71,7 +71,7 @@ the total number of flip-flops = 1398 and total number of Cells = 14876 and the 
 
 All the runs available in working_dir/openLANE/design/picorv32a/runs directory names as date.
 
-Floorplan
+# Floorplan
 
 Floorplan determines the chip quality. It includes :
 
@@ -97,7 +97,7 @@ Output -
 
 ![magiclayout](https://user-images.githubusercontent.com/92804006/144570240-47017121-da95-4b6e-b317-e6f3f46ae6e3.jpg)
 
-Placement -
+# Placement -
 
 ![Placement_layout_str](https://user-images.githubusercontent.com/92804006/144581268-6b819c9c-d698-4466-8980-30a57b8e2b98.jpg)
 
@@ -107,7 +107,7 @@ run_placement is the command for start placement.Below is a snapshot after compl
 
 ![Placement](https://user-images.githubusercontent.com/92804006/144580447-22db3242-1c49-4aa0-aab1-46dfce0eaa38.jpg)
 
-STANDARD CELLS
+# STANDARD CELLS
 
 There are multiple standard cells available in github or skywater. In this workshop let's cloning from github as below:
 
@@ -147,7 +147,7 @@ The inverter waveform after changing C3 to 2fF :
 
 ![sim2](https://user-images.githubusercontent.com/92804006/144703349-ee2690f8-4fcc-4b82-8ba7-4947ba9be73a.jpg)
 
-Characterizing:
+# Characterizing:
 
 Rise transition : time taken by the output to transit from 20% of the maximum value to 80% of the maximum value
 
@@ -159,7 +159,7 @@ Rise cell delay : difference between the time when output has rised to 50% of th
 
 propogation delay = time(out_thr) - time(in_thr)
 
-Extraction of LEF file:
+# Extraction of LEF file:
 
 In magic layout, activate the tracks to ensure that A and Y pins are placed on the intersection of tracks.
 
@@ -168,7 +168,7 @@ In tkcon to activate grids
 ![extlay](https://user-images.githubusercontent.com/92804006/144703616-49f94033-f5dc-4b4f-bd91-df423a9a6ef6.jpg)
 
 
-LEF FILE EXTRACTION FROM STD CELL LAYOUT
+# LEF FILE EXTRACTION FROM STD CELL LAYOUT
 
 Next is to get the grid in magic. The grid details available in pdk/TRACE.info file as below:
 
@@ -201,7 +201,7 @@ After synthesis with reduced slack violations run placement
 
 ![image](https://user-images.githubusercontent.com/92804006/144704371-65a45127-6f51-4d72-bf4c-211d050a2327.png)
 
-Clock Tree Synthesis
+# Clock Tree Synthesis
 
 The goal of clock tree synthesis (CTS) is to minimize skew and insertion delay. After CTS hold slack should improve. Clock tree begins at .sdc defined clock source and ends at stop pins of flop. In clock tree optimization (CTO) clock can be shielded so that noise is not coupled to other signals. But shielding increases area by 12 to 15%. Since the clock signal is global in nature the same metal layer used for power routing is used for clock also. CTO is achieved by buffer sizing, gate sizing, buffer relocation, level adjustment and High Fanout Nets synthesis. We try to improve setup slack in pre-placement, in placement and post placement optimization before CTS stages while neglecting hold slack. In post placement optimization after CTS hold slack is improved. As a result of CTS lot of buffers are added.
 
@@ -217,11 +217,11 @@ openroad
 
 To do timing analysis create a db from lef and def files. db once created can be read multiple times.
 
-Slack violation for Hold time: 
+# Slack violation for Hold time: 
 
 ![image](https://user-images.githubusercontent.com/92804006/144705741-1f7b4bc1-379f-4e20-8cfd-c277388e3c6d.png)
 
-Slack violation for Setuptime time:
+# Slack violation for Setuptime time:
 
 ![image](https://user-images.githubusercontent.com/92804006/144705754-2f7f9761-66a6-4f51-8e8c-a7f6df615056.png)
 
@@ -235,7 +235,7 @@ Summary of routing available in terminal as below:
 
 ![image](https://user-images.githubusercontent.com/92804006/144705800-6db72808-33d5-4263-8b8d-3539a56e5da7.png)
 
-FULL DESIGN WITH INVERTER STD CELL
+# FULL DESIGN WITH INVERTER STD CELL
 
 We can observe our routing layout including inverter with magic as below:
 
@@ -243,11 +243,11 @@ We can observe our routing layout including inverter with magic as below:
 
 ![image](https://user-images.githubusercontent.com/92804006/144705840-299374b2-c32d-4179-8130-588c3ae9193c.png)
 
-GDSII file can be obtained with run_magic command.
+# GDSII file can be obtained with run_magic command.
 
 Note: more snapshots available in snapshot directory in github.
 
-ACKNOWLEDGEMENTS
+# ACKNOWLEDGEMENTS
 
 Kunal Ghosh, Co-Founder (VSD Corp. Pvt. Ltd)
 
