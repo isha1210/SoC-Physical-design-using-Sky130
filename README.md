@@ -243,9 +243,7 @@ We can observe our routing layout including inverter with magic as below:
 
 ![image](https://user-images.githubusercontent.com/92804006/144705840-299374b2-c32d-4179-8130-588c3ae9193c.png)
 
-# GDSII file can be obtained with run_magic command.
-
-Note: more snapshots available in snapshot directory in github.
+ GDSII file can be obtained with run_magic command.
 
 # ACKNOWLEDGEMENTS
 
